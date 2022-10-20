@@ -7,16 +7,25 @@
   <body>
     <h1>Cooper's Personal Website</h1>
     <script src="script.js"></script>
-    <h3 id="blog1">About Me
-        <p>Hello! My name is Cooper Hall and for the past 5 years, I have been working as a Playback Operator (and other roles) in New York City. I am originally from Nashville, Tennesse and attended the University of Tennesse, Knoxville where I graduated in 2016 with a BA in Global Studies.</p>
-    </h3>
-    <h4 id="blog2">Why I Got Into Coding
+    <h3 id="blog1">About Me </h3>
+        <p>Hello! My name is Cooper Hall and for the past 5 years, I have been working as a Playback Operator (and other roles) in New York City. I am originally from Nashville, Tennesse and attended the University of Tennesse, Knoxville where I graduated in 2016 with a BA in Global Studies.</p> 
+    <h3 id="blog2">Why I Got Into Coding </h3>
         <p>After working my way up from a Production Assistant to a Technical Director in Training, I left the news world behind and decided to become a software engineer. I have been interested in tech since my first job in a tech start up right out of college and am finally getting into the nitty gritty of it. My love of learning and creativity led me to pursue software engineering and attend Flatiron School.</p>
-    </h4>
-    <h5 id="blog3">What I Am Most Excited
+    <h3 id="blog3">What I Am Most Excited </h3>
         <p>Although there are many things that excite me about my course at Flatiron School and future career, I believe what I’m most excited about is developing the skills to create something that can truly help people. I would love to work on a project or a company that is truly making a difference in this world and making it a better place.</p>
-    </h5>
-    <h6 id="blog4">Hobbies of Mine!
+    <h3 id="blog4">Hobbies of Mine! </h3>
+    <script>
+        document.getElementById("blog4").onmouseover = function() {mouseOver()};
+        document.getElementById("blog4").onmouseout = function() {mouseOut()};
+        
+        function mouseOver() {
+          document.getElementById("blog4").style.color = "white";
+        }
+        
+        function mouseOut() {
+          document.getElementById("blog4").style.color = "orange";
+        }
+    </script>
         <p> Whenever I'm not in school, you can probably find me doing one of these activities:</p>
             <ul>
                 <li class = "loc-caption" title= "Climbing"> 
@@ -29,6 +38,5 @@
                     <img src="https://images.squarespace-cdn.com/content/v1/5d026823c01c37000108ab6f/1580188482056-L9Y56PAWEJOQSG7E49BP/Z6_014_363.jpg?format=2500w" width="220" height="220" frameBorder="0" alt="Choir">
                 </li>
             </ul>
-    </h6>
   </body>
 </html>
