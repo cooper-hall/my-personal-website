@@ -3,9 +3,16 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <title>My Personal Website</title>
+    <script>
+        function myFunction() {
+          document.getElementById("howdy").innerHTML = "Howdy Stranger!!";
+        }
+    </script>
   </head>
   <body>
     <h1>Cooper's Personal Website</h1>
+    <button id= "myButton" onclick="myFunction()">How do I say Hello?</button>
+        <p id="howdy"></p>
     <script src="script.js"></script>
     <h3 id="blog1">About Me </h3>
         <p>Hello! My name is Cooper Hall and for the past 5 years, I have been working as a Playback Operator (and other roles) in New York City. I am originally from Nashville, Tennesse and attended the <a href = "https://www.utk.edu/">University of Tennesse, Knoxville</a> where I graduated in 2016 with a BA in Global Studies.</p> 
